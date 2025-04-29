@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { SidebarItem } from "./SidebarItem";
-import { LogoutButton } from "../ui/LogoutButton";
+import { LogoutButton } from "../../ui/LogoutButton";
 import { CiLogout } from "react-icons/ci";
 import {
   IoBasketOutline,
