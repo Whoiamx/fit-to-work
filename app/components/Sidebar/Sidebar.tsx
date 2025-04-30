@@ -1,28 +1,26 @@
 import Image from "next/image";
-import Link from "next/link";
+
 import { SidebarItem } from "./SidebarItem";
 import { LogoutButton } from "../../ui/LogoutButton";
-import { CiLogout } from "react-icons/ci";
+
 import {
   IoBasketOutline,
   IoCalendarOutline,
   IoCheckboxOutline,
   IoCodeWorkingOutline,
   IoListOutline,
-  IoPerson,
-  IoPersonOutline,
 } from "react-icons/io5";
 
 const menuItems = [
   {
     icon: <IoCalendarOutline />,
-    title: "Dashboard",
+    title: "Home",
     path: "/dashboard",
   },
   {
     icon: <IoCheckboxOutline />,
     title: "Mi CV",
-    path: "/dashboard/mi-cv",
+    path: "/dashboard/cv",
   },
   {
     icon: <IoListOutline />,
@@ -32,7 +30,7 @@ const menuItems = [
   {
     icon: <IoCodeWorkingOutline />,
     title: "Guía de Búsqueda de Empleo",
-    path: "/dashboard/carta-presentacion",
+    path: "/dashboard/roadmap",
   },
   {
     icon: <IoBasketOutline />,

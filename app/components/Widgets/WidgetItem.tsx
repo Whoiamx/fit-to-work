@@ -1,3 +1,4 @@
+import { IoIosOptions } from "react-icons/io";
 import { WidgetCard } from "./WidgetCard";
 import {
   FaFileAlt,
@@ -50,6 +51,13 @@ const cardsData = [
     buttonText: "Ver historial",
     route: "/historial",
     icon: <FaHistory className="text-2xl text-blue-600" />,
+  },
+  {
+    title: "Optimizacion de CV",
+    description: "Optimiza tu CV para buscar tu trabajo ideal",
+    buttonText: "Optimizar el CV con IA",
+    route: "/optimizar",
+    icon: <IoIosOptions className="text-2xl text-blue-600" />,
   },
 ];
 
