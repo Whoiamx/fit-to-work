@@ -1,3 +1,4 @@
+import ChatPage from "../components/chat/Chat";
 import { WidgetItem } from "../components/Widgets/WidgetItem";
 
 export default async function DashboardPage() {

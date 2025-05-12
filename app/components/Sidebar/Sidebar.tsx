@@ -10,6 +10,8 @@ import {
   IoCodeWorkingOutline,
   IoListOutline,
 } from "react-icons/io5";
+import { FaAddressCard } from "react-icons/fa";
+import { FaRegAddressCard } from "react-icons/fa6";
 
 const menuItems = [
   {
@@ -26,6 +28,11 @@ const menuItems = [
     icon: <IoListOutline />,
     title: "Mi Linkedin",
     path: "/dashboard/mi-linkedin",
+  },
+  {
+    icon: <FaRegAddressCard  />,
+    title: "Mi carta de presentacion",
+    path: "/dashboard/carta",
   },
   {
     icon: <IoCodeWorkingOutline />,
